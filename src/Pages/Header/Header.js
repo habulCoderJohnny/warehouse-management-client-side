@@ -8,7 +8,7 @@ const Header = () => {
         <Navbar collapseOnSelect expand="lg" sticky='top' bg="info" variant="dark">
             <Container>
                 <Navbar.Brand as={Link} to="/home">
-                    <img height={40} width={50} src="https://chaldn.com/_mpimage/fruits-vegetables?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D23769&q=low&v=1&m=400&webp=1" alt="" />{'  '}ChaalDaal
+                    <img height={35} src="https://themebing.com/wp/motormania/wp-content/uploads/2021/02/logo.png" alt="" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

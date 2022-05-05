@@ -1,11 +1,20 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Pages/Header/Header';
+import Home from './Pages/Home/Home';
+import ManageInventory from './Pages/ManageInventory/ManageInventory.js';
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Header></Header>
-      <h1>Hello from my Universe Client side!</h1>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/manage' element={<ManageInventory></ManageInventory>}></Route>
+      </Routes>
 
     </div>
   );
