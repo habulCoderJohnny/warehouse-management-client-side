@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" sticky='top' bg="info" variant="dark">
+        <Navbar collapseOnSelect expand="lg" sticky='top' bg='white' variant="danger">
             <Container>
                 <Navbar.Brand as={Link} to="/home">
                     <img height={35} src="https://themebing.com/wp/motormania/wp-content/uploads/2021/02/logo.png" alt="" />

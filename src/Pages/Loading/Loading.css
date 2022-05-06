@@ -1,0 +1,23 @@
+.spinner {
+    margin: auto;
+    /* margin-bottom: 4px; */
+    border: 5px solid #ff9900;
+    border-radius: 50%;
+    border-top: 5px solid rgb(41, 59, 251);
+    border-right: 5px solid rgb(27, 228, 204);
+    border-bottom: 5px solid red;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
