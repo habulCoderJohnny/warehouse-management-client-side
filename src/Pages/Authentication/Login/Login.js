@@ -3,6 +3,7 @@ import {useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Loading from '../../Loading/Loading';
+import Google from '../Signin With social/Google';
 import './Login.css';
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -56,12 +57,13 @@ const Login = () => {
 
                                    {/* FORM END  */}
                                    
-                <p>
+                <p className='bg-success w-50 text-center mt-4 h6'>
                     New Client? <Link className='form-link' to="/signup">Create an account</Link>
                 </p>
                 <div className="hr-area"><hr/>
-                  <p className='or'>OR</p> <br />
+                  <p className='or'>OR</p>
                 </div>
+                <Google></Google>
             </div>
         </div>
     );

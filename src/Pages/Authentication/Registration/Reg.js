@@ -64,7 +64,7 @@ const Reg = () => {
           </form>
               {/* FORM END  */}
 
-          <p>
+          <p className='bg-success w-50 text-center mt-4 h6'>
            Already Have an Account? <Link className='form-link' to="/login">Login</Link>
           </p>
           <div className="hr-area"><hr/>

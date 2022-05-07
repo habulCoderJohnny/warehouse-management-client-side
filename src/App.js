@@ -14,7 +14,7 @@ import ManageInventory from './Pages/ManageInventory/ManageInventory.js';
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home/>}></Route>

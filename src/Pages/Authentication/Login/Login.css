@@ -1,7 +1,7 @@
 .form-container {
     width: 700px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 70px;
     border: 1px solid #d43838;
     box-sizing: border-box;
     border-radius: 8px;
@@ -61,12 +61,15 @@ input:focus {
 
 .form-link {
     color: #44f72d;
-    font-size: large;
     text-decoration: none;
 }
 
 .form-link:hover {
     color: #d43838;
+}
+
+hr{
+    border: 3px solid red;
 }
 
 .hr-area {
@@ -78,7 +81,8 @@ input:focus {
     position: absolute;
     top: -28px;
     left: 45%;
-    background-color: #fff;
+    font-size: 25px;
+    color: rgb(0, 136, 255);
     padding: 0 12px;
 
 }

@@ -7,7 +7,8 @@ const InventoryItems = () => {
     const [products] =useProducts();
     return (
         <div className='container'>
-               <h1 className='text-danger m-5'>Popular Bikes:  {products.length}</h1>
+               <h1 className='text-danger display-3'>Popular  
+               <span className='text-white'> Motor Bikes</span></h1>
              <div className='row'> 
                 {
                     products.slice(0, 6).map(product => <InventoryItem key={product._id} product={product}></InventoryItem>)
