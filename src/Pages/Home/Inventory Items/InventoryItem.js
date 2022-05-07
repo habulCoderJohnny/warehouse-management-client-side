@@ -7,7 +7,7 @@ const InventoryItem = ({ product }) => {
     const { _id, name, price, quantity, supplierName, description, img } = product;
     const navigate = useNavigate();
     const handleNavigate = id =>{
-        navigate(`/delivery/${id}`);
+        navigate(`/inventory/${id}`);
 
     }
     return (
