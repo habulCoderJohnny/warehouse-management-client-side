@@ -1,26 +1,39 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import useProducts from '../../Hooks/useProducts';
+import './ManageInventory.css';
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
+
 
 const ManageInventory = () => {
     const [products] = useProducts();
     return (
-        <div className='container pb-4'>
-        <h1 className='text-danger'>Manage Inventories</h1>
-        <Link to="/AddItem" className='btn btn-dark text-warning'>Add item to Inventory</Link>
-      <div> 
-         {
-             products.map(product => 
-             <div className='text-center' key={product._id}> 
-             <h5>Name: {product.name}</h5> <h5>Price: <span className='text-warning'>${product.price}</span></h5><h5 className='text-danger'>Quantity: {product.quantity}</h5> <h5>Supplier: {product.supplierName}</h5>
-             <button className='btn btn-warning mb-4'>Delete Item</button> <hr/>
-             </div> 
-             )  
-         }
-     </div>
-
-        </div>
+        <Table className="text-center">
+        <Thead>
+      <Tr>
+      <Th>Product Id</Th>
+    <Th>Brand</Th>
+    <Th>Price</Th>
+    <Th>Quantity</Th>
+    <Th>Item Delete</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+        
+{products.map(product => (
+      <Tr className="">
+        <Td>{product._id}</Td>
+        <Td className='text-warning'>{product.name}</Td>
+        <Td className='text-primary'>$ {product.price}</Td>
+        <Td className='h3'>{product.quantity}</Td>
+        <button className='btn btn-warning mt-2'>Delete Item</button>
+      </Tr>
+     
+))}
+    </Tbody>
+  </Table>
     );
-};
-
+}
 export default ManageInventory;
+
+

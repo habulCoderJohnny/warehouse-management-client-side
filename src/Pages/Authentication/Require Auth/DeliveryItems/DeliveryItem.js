@@ -22,7 +22,7 @@ const DeliveryItem = () => {
             <input type="number" name="increase" placeholder='update Quantity'/>
         </form>
         <div className='w-25 mx-auto my-5'>
-            <Link to="/manage" className='btn btn-primary'>Manage Inventories</Link>
+            <Link to="/manageInventory" className='btn btn-primary'>Manage Inventories</Link>
             </div>
             
             
