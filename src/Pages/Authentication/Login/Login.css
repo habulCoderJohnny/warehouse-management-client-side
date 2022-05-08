@@ -96,6 +96,8 @@ hr{
 
 }
 
+/* RESPONISVE */
+
 @media (max-width: 62em){
 
 
@@ -114,6 +116,18 @@ hr{
 .form-submit {
    width: 76px;
    height: 40px;
+}
+
+#footer{
+    display: block;
+
+}
+.right{
+    display:none;
+}
+.copyright{
+    display:none;
+   
 }
 
 }

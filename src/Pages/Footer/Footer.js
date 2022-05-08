@@ -29,17 +29,17 @@ const Footer = () => {
             <p className="right"><img height={130} weight={20} src={img} alt="" srcset="" /></p>
             {/* RIGHT SIDE END  */}
             <p className="centered">
-                <a href="#">About Us</a> <br />
-                <a href="#">Success</a> <br />
-                <a href="#">Our business</a> <br />
-                <a href="#">Mission 2022</a> <br />
-                <a href="#">Refund policy</a> <br />
-                <a href="#">Privacy Policy</a> <br />
-                <a href="#">Terms and Conditions</a> <br /> 
+                <Link to="/about">About Us</Link> <br />
+                <Link to="#">Success</Link> <br />
+                <Link to="#">Our business</Link> <br />
+                <Link to="#">Mission 2022</Link> <br />
+                <Link to="#">Refund policy</Link> <br />
+                <Link to="#">Privacy Policy</Link> <br />
+                <Link to="#">Terms and Conditions</Link> <br /> 
             </p>
               
-            <p className='h6 w-25 mx-auto mt-5'>
-            <FontAwesomeIcon icon={faCopyright} /> Copyright <span className='h5 text-danger'>{year}</span> | motorMania.com
+            <p className='h6 w-25 mx-auto mt-5 copyright'>
+            <FontAwesomeIcon icon={faCopyright} /> Copyright <span className='h5'>{year}</span> | motorMania.com
             </p>
         </div>
     );

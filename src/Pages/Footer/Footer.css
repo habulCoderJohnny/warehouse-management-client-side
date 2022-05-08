@@ -1,8 +1,8 @@
 #footer {
     background-color: #653ef5;
     /* background-color: #6346d7; */
-    height: 325px;
-    margin-top: 50px;
+    height: 260px;
+    /* margin-top: 50px; */
     padding-top: 5px;
 
 }
@@ -38,6 +38,4 @@ a {
     color: white;
     font-size: 16px;
     text-decoration: none;
-
-
 }

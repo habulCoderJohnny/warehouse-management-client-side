@@ -11,6 +11,7 @@ import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import ManageInventory from './Pages/ManageInventory/ManageInventory.js';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 
@@ -27,8 +28,7 @@ function App() {
         <Route path='/AddItem' element={<AddItem/>}></Route>
         <Route path='/signup' element={<Reg/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
-        <Route path='/about' element={<Reg/>}></Route>
-        <Route path='*' element={<Reg/>}></Route>
+        <Route path='*' element={<NotFound/>}></Route>
       </Routes>
       <ToastContainer></ToastContainer>
       <Footer></Footer>
