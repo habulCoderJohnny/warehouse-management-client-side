@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import Google from '../Signin With social/Google';
 
 const Reg = () => {
   const [email, setEmail] = useState('');
@@ -58,7 +59,6 @@ const Reg = () => {
                   <input onBlur={handleRePasswordBlur}type="password" name="confirm-password" required/>    
               </div>
               {/* error showing & spinner in ui */}
-              {loading && <p className='spinner'></p>}
               <p className='error'>{errors} {error?.message}</p>
               <input className='form-submit' type="submit" value="Sign Up" />
           </form>
@@ -70,6 +70,7 @@ const Reg = () => {
           <div className="hr-area"><hr/>
                 <p className='or'>OR</p>
           </div>
+         <Google></Google>
       </div>
   </div>
   );

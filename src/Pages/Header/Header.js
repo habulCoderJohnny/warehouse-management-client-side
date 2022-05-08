@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import logo from '../../logo/logo.png';
 
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
         <Navbar collapseOnSelect expand="lg" sticky='top' bg='white' variant="danger">
             <Container>
                 <Navbar.Brand as={Link} to="/home">
-                    <img height={35} src="https://themebing.com/wp/motormania/wp-content/uploads/2021/02/logo.png" alt="" />
+                    <img height={35} src={logo} alt="" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -25,7 +26,7 @@ const Header = () => {
                     <Nav>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                     
-                            <Nav.Link as={Link} to="/add-service">Blogs</Nav.Link>
+                            <Nav.Link as={Link} to="/blog">Blogs</Nav.Link>
                             <Nav.Link as={Link} to="/manage">Manage</Nav.Link>
                             <Nav.Link as={Link} to="/orders">Orders</Nav.Link>
                             <Nav.Link as={Link} to="/login">

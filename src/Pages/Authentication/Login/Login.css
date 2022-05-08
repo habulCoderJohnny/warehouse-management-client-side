@@ -1,7 +1,7 @@
 .form-container {
     width: 700px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 35px;
     border: 1px solid #d43838;
     box-sizing: border-box;
     border-radius: 8px;
@@ -81,8 +81,8 @@ hr{
     position: absolute;
     top: -28px;
     left: 45%;
-    font-size: 25px;
-    color: rgb(0, 136, 255);
+    font-size: 20px;
+    color: black;
     padding: 0 12px;
 
 }
@@ -93,5 +93,27 @@ hr{
     background-color: rgba(255, 62, 62, 0.929);
     border-radius: 6px;
     text-align: center;
+
+}
+
+@media (max-width: 62em){
+
+
+.form-container {
+    width: 500px;
+    margin: 0 auto 0 8px;
+    margin-top: 35px;
+    border:none;
+}
+
+.form-title {
+    text-align: center;
+
+}
+
+.form-submit {
+   width: 76px;
+   height: 40px;
+}
 
 }
