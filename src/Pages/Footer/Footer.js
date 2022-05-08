@@ -18,15 +18,15 @@ const Footer = () => {
                 <Navbar.Brand as={Link} to="/home">
                     <img height={25} src={logo} alt="" />
                 </Navbar.Brand> <br />
-                <LocationMarkerIcon className="icon" />Level-4, 34, Awal Centre, Banani, Dhaka <br />
+                <LocationMarkerIcon className="icon" />Level-4, 34, Las Vagas, NewYork, US <br />
                 <MailIcon className="icon" /> Official: business@MotorMania.com <br />
-                <PhoneIcon className="icon" /> Helpline : 01322810873 , 01322810867<br />
+                <PhoneIcon className="icon" /> Helpline : +322810873 , +322810867<br />
                 (Available : Sat - Thu, 10:00 AM to 7:00 PM) <br />
                 <a href="https://play.google.com/store/search?q=motormania&c=apps" target="_blank" >
                     <img height={50} src=" https://web.programming-hero.com/static/media/app-download.439edada.png" alt="" /></a>
             </p>
             {/* LEFT SIDE END  */}
-            <p className="right"><img height={130} weight={20} src={img} alt="" /></p>
+            <p className="right"><img height={140} weight={15} src={img} alt="" /></p>
             {/* RIGHT SIDE END  */}
             <p className="centered">
                 <Link to="/about">About Us</Link> <br />
@@ -47,6 +47,5 @@ const Footer = () => {
 
 export default Footer;
 
-<FontAwesomeIcon icon="" />
 
 

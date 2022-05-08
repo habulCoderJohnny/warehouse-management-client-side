@@ -10,13 +10,13 @@
 .left {
     text-align: left;
     float: left;
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 
 .right {
     float: right;
     text-align: right;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .centered {

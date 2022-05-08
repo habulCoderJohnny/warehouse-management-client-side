@@ -92,7 +92,6 @@ hr{
     background-color: rgba(255, 62, 62, 0.929);
     border-radius: 6px;
     text-align: center;
-
 }
 
 /* RESPONSIVE */
@@ -124,6 +123,11 @@ hr{
 .right{
     display:none;
 }
+
+.left{
+    margin-left:1rem;
+}
+
 .copyright{
     display:none;
    

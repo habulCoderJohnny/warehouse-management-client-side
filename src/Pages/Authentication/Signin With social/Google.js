@@ -22,7 +22,7 @@ const Google = () => {
     }
 
     if (error) {
-        errorElement = <p className='bg-danger text-white text-center '>Error: {error?.message}</p>
+        errorElement = <p className='error'>{error?.message}</p>
     }
 
     return (

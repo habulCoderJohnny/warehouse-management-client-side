@@ -8,6 +8,7 @@ import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';
 import { faSignOut } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Loading from '../Loading/Loading';
 
 
 const Header = () => {
@@ -15,6 +16,7 @@ const Header = () => {
     const handleSignout = () => {
         signOut(auth)
     }
+
     return (
         <Navbar collapseOnSelect expand="lg" sticky='top' bg='white' variant="danger">
             <Container>
