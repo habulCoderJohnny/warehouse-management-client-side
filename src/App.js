@@ -8,7 +8,6 @@ import Reg from './Pages/Authentication/Registration/Reg';
 import DeliveryItem from './Pages/Authentication/Require Auth/DeliveryItems/DeliveryItem';
 import RequireAuth from './Pages/Authentication/Require Auth/RequireAuth';
 import Blog from './Pages/Blog/Blog';
-import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import ManageInventory from './Pages/ManageInventory/ManageInventory.js';
@@ -32,7 +31,6 @@ function App() {
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
       <ToastContainer></ToastContainer>
-      <Footer></Footer>
     </div>
   );
 }
