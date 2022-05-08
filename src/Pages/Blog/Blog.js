@@ -5,7 +5,7 @@ const Blog = () => {
     return (
         <div className='blog-container bg-white text-black'>
             <div className="quesition">
-                <h2>Que:1. Difference between javascript and nodejs.</h2>
+                <h2>1. Difference between javascript and nodejs.</h2>
                 <div className="javascript">
                     <h4>javascript</h4>
                     <li>It is an open-source, cross-platform, interpreted, lightweight scripting programming language</li>
@@ -23,7 +23,7 @@ const Blog = () => {
             </div>
             <hr />
             <div className="quesition">
-                <h2>Que:2.  Differences between sql and nosql databases.</h2>
+                <h2>2.  Differences between sql and nosql databases.</h2>
                 <div className="javascript">
                     <h4>SQL</h4>
                     <li>SQL databases are relational,</li>
@@ -41,7 +41,7 @@ const Blog = () => {
             </div>
             <hr />
             <div className="quesition">
-                <h2>Que:3. What is the purpose of jwt and how does it work</h2>
+                <h2>3. What is the purpose of jwt and how does it work</h2>
 
                 <p>JWT on its own is nothing but an open standard for transmitting messages via HTTP.</p>
                 <p>JWT, or JSON Web Token, is an open standard used to share information between two parties securely — a client and a server.

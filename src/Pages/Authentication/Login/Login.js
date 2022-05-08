@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import {useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import {useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import auth from '../../../firebase.init';
 import Loading from '../../Loading/Loading';
 import Google from '../Signin With social/Google';
@@ -13,18 +14,21 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const from = location?.state?.from?.pathname || '/';
+    
+    //foget password recover
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
     const handleEmailBlur = event =>{
         setEmail(event.target.value);
     }
+    console.log(setEmail);
     const handlePasswordBlur = event =>{
         setPassword(event.target.value);
     }
 
     const handleUserLogin = event =>{
         event.preventDefault();
-
-    signInWithEmailAndPassword(email, password)
+        signInWithEmailAndPassword(email, password)
 
     }
 
@@ -35,6 +39,17 @@ const Login = () => {
     if (user) {
         navigate(from, {replace:true});
     }
+
+    // Reset Password function
+    const resetPassword = async () => {
+        if (email) {
+             await sendPasswordResetEmail(email);
+             toast('Sent email! Reset your Password');
+            }
+            else{
+                toast('Please enter your email address!');
+            }
+        }
 
 
     return (
@@ -55,14 +70,12 @@ const Login = () => {
                     <input className='form-submit' type="submit" value="Log in" />
                 </form>
 
-                                   {/* FORM END  */}
-                                   
-                <p className='bg-success w-50 text-center mt-4 h6'>
+                                   {/* FORM END  */}               
+                <p className='bg-success w-50 mt-4 h6 mx-auto p-1'>
                     New Client? <Link className='form-link' to="/signup">Create an account</Link>
                 </p>
-                <div className="hr-area"><hr/>
-                  <p className='or'>OR</p>
-                </div>
+                   {/* Reset password  */}
+                   <p className='h5 text-center text-danger'>Forget Password? <button className='btn btn-primary pe-auto text-decoration-none p-1' onClick={resetPassword}>Reset Password</button></p>
                 <Google></Google>
             </div>
         </div>
