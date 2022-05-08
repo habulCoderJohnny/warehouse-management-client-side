@@ -4,4 +4,4 @@
 # Server Side repo link 
 [Click here for the Server Side repo](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-habulCoderJohnny)
 # Deployment site link
-[Click here for the Live Site](https://)
+[Click here for the Live Site](https://motor-mania-auth.web.app/)
