@@ -6,8 +6,6 @@ import logo from '../../logo/logo.png';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';
-import { faSignOut } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const Header = () => {
@@ -38,9 +36,8 @@ const Header = () => {
                             <Nav.Link as={Link} to="/add-service">Add Service</Nav.Link>
                             <Nav.Link as={Link} to="/manage">add item</Nav.Link>
                             <Nav.Link as={Link} to="/orders">my item</Nav.Link>
-                           
                         </>}
-                        {user ?  <button className="btn btn-link text-danger d-inline" onClick={handleSignout}> <FontAwesomeIcon className='' icon={faSignOut}/> LOGOUT</button>
+                        {user ? <button className="btn btn-link text-danger" onClick={handleSignout}>SIGNOUT</button>
                             :
                             <Nav.Link as={Link} to="/login">
                                 LOGIN

@@ -10,7 +10,7 @@ const Reg = () => {
   const [rePassword,setRePassword] = useState('');
   const [errors,setError] = useState('');
 
-  const [createUserWithEmailAndPassword, user,loading,error] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification: true});
+  const [createUserWithEmailAndPassword, user,loading,error] = useCreateUserWithEmailAndPassword(auth);
 
 
   const navigate = useNavigate();
