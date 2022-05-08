@@ -26,7 +26,7 @@ const Footer = () => {
                     <img height={50} src=" https://web.programming-hero.com/static/media/app-download.439edada.png" alt="" /></a>
             </p>
             {/* LEFT SIDE END  */}
-            <p className="right"><img height={130} weight={20} src={img} alt="" srcset="" /></p>
+            <p className="right"><img height={130} weight={20} src={img} alt="" /></p>
             {/* RIGHT SIDE END  */}
             <p className="centered">
                 <Link to="/about">About Us</Link> <br />

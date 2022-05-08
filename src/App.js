@@ -6,6 +6,7 @@ import AddItem from './Pages/AddInventoryItem/AddItem';
 import Login from './Pages/Authentication/Login/Login';
 import Reg from './Pages/Authentication/Registration/Reg';
 import DeliveryItem from './Pages/Authentication/Require Auth/DeliveryItems/DeliveryItem';
+import RequireAuth from './Pages/Authentication/Require Auth/RequireAuth';
 import Blog from './Pages/Blog/Blog';
 import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
@@ -23,7 +24,7 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/manage' element={<ManageInventory/>}></Route>
-        <Route path='/inventory/:itemId' element={<DeliveryItem/>}></Route>
+        <Route path='/inventory/:itemId' element={<RequireAuth><DeliveryItem/></RequireAuth>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/AddItem' element={<AddItem/>}></Route>
         <Route path='/signup' element={<Reg/>}></Route>
