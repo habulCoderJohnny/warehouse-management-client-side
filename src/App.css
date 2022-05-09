@@ -1,10 +1,10 @@
+h1{
+  font-family:  Oswald;
+}
 
-/* body{
-  background-image: url(https://i.ibb.co/ZxQq9FQ/login-form-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-} */
+body{
+  background-color: #e3e3e3;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

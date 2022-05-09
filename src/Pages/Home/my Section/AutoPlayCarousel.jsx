@@ -16,7 +16,7 @@ export default class AutoPlay extends Component {
 
     };
     return (
-      <div className="slide-container my-4">
+      <div className="slide-container my-4" id="deal">
         <h2 className="display-3 container">Best Deals</h2>
         <Slider {...settings}>
           <div>

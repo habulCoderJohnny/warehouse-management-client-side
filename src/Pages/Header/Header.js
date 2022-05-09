@@ -18,7 +18,7 @@ const Header = () => {
     }
 
     return (
-        <Navbar collapseOnSelect expand="lg" sticky='top' bg='white' variant="danger">
+        <Navbar collapseOnSelect expand="lg" sticky='top' variant="danger">
             <Container>
                 <Navbar.Brand as={Link} to="/home">
                     <img height={35} src={logo} alt="" />
@@ -26,8 +26,8 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="home#go-to-services">Services</Nav.Link>
-                        <Nav.Link href="home#go-to-experts">Experts</Nav.Link>
+                        <Nav.Link href="home#deal">Best Deals</Nav.Link>
+                        <Nav.Link href="home#footer">Contract</Nav.Link>
                         <NavDropdown title="More Services" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -36,7 +36,7 @@ const Header = () => {
                     </Nav>
                     <Nav>
                             <Nav.Link as={Link} to="/blog">Blogs</Nav.Link>
-                            <Nav.Link as={Link} to="/manageInventory">Manage Invent</Nav.Link>
+                            <Nav.Link as={Link} to="/manageInventory">Manage Inven..</Nav.Link>
                             {user && <>
                             <Nav.Link as={Link} to="/add-service">Add Service</Nav.Link>
                             <Nav.Link as={Link} to="/manage">add item</Nav.Link>

@@ -1,4 +1,5 @@
 .form-container {
+    font-family: Oswald;
     width: 300px;
     margin: 0 auto;
     border: 1px solid #d43838;
@@ -9,6 +10,7 @@
 }
 
 .form-title {
+
     font-size: 35px;
     text-align: center;
     font-weight: 400;

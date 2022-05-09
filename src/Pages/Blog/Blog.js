@@ -3,7 +3,7 @@ import './Blog.css';
 
 const Blog = () => {
     return (
-        <div className='blog-container bg-white text-black'>
+        <div className='blog-container text-black'>
             <div className="quesition">
                 <h2>1. Difference between javascript and nodejs.</h2>
                 <div className="javascript">
