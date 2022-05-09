@@ -59,7 +59,7 @@ const Login = () => {
                 <form onSubmit={handleUserLogin}>
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
-                        <input className='ms-4' onBlur={handleEmailBlur} type="email" name="email"  required/>
+                        <input onBlur={handleEmailBlur} type="email" name="email"  required/>
                     </div>
                     <div className="input-group">
                         <label htmlFor="password">Password</label>

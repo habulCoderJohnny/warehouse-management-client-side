@@ -12,11 +12,12 @@ export default class AutoPlay extends Component {
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
-      cssEase: "linear"
+      cssEase: "linear",
+
     };
     return (
       <div className="slide-container my-4">
-        <h2 className="display-3">Best Deals</h2>
+        <h2 className="display-3 container">Best Deals</h2>
         <Slider {...settings}>
           <div>
            <img src="https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""/>

@@ -1,10 +1,10 @@
 
-body{
+/* body{
   background-image: url(https://i.ibb.co/ZxQq9FQ/login-form-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -31,7 +31,7 @@ const Google = () => {
                 <p className='or bg-danger'>OR</p>
             </div>
 
-            <button onClick={() => signInWithGoogle()} className='btn btn-success w-50 d-block mx-auto my-2 p-0'>
+            <button onClick={() => signInWithGoogle()} className='btn btn-primary w-50 d-block mx-auto my-2 p-0'>
                 <img className='w-25' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png' alt="" /> <br />
                 <span className='px-2'>SignIn with Google</span>
             </button>

@@ -64,7 +64,7 @@ const Reg = () => {
           </form>
               {/* FORM END  */}
 
-          <p className='bg-success w-50 mx-auto mt-4 h6 p-2'>
+          <p className='bg-success mx-auto mt-2 p-2'>
            Already Have an Account? <Link className='form-link' to="/login">Login</Link>
           </p>
          <Google></Google>
