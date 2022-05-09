@@ -39,6 +39,9 @@ const Reg = () => {
       }
    createUserWithEmailAndPassword(email,password);
   }
+  if (user) {
+    navigate('/home')
+  }
 
 
   return (

@@ -9,7 +9,7 @@ const AddItem = () => {
     const navigate = useNavigate();
     const onSubmit = data => {
         console.log(data)
-        const url = `http://localhost:5000/bikes`;
+        const url = `https://rocky-crag-07319.herokuapp.com/bikes`;
         fetch(url,{
             method: 'POST',
             headers: {

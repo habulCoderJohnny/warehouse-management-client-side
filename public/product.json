@@ -1,6 +1,5 @@
 [
 {
-"_id":"626713f8dda4fdb3376743p1",
 "name":"Honda-livo-109-51-cc",
 "price":"496.00",
 "quantity":"20", 
@@ -9,7 +8,6 @@
 "img":"https://i.ibb.co/0m0WnVw/bike-1.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p2",
 "name":"Generic Cafe racer 165 CC",
 "price":"496.00",
 "quantity":"20", 
@@ -18,7 +16,6 @@
 "img":"https://i.ibb.co/6Zbqq4P/bike-2.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p3",
 "name":"LIFAN KPR Motorbike 165R",
 "price":"499.00",
 "quantity":"20", 
@@ -27,7 +24,6 @@
 "img":"https://i.ibb.co/F3PzWgM/bike-3.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p4",
 "name":"Speeder Countryman",
 "price":"2,356.00",
 "quantity":"20", 
@@ -36,16 +32,14 @@
 "img":"https://i.ibb.co/pJXwKGC/bike-4.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p5",
 "name":"UM Renegade Sport",
 "price":"102.00",
 "quantity":"10", 
 "supplierName":"Bike Spares",
-"description":"UM is an American motorcycle manufacturer. UM is marketed in Bangladesh through Runner Automobiles Bangladesh. The cruiser culture in the USA is quite big, as it is a huge country and they need comfortable bikes to travel over thousands of kilometers. UM has attempted to contribute to the culture by bringing two of their top of the line 150cc cruisers.",
+"description":"UM is an American motorcycle manufacturer. UM is marketed in Bangladesh through Runner Automobiles Bangladesh. The cruiser culture in the USA is quite big, as it is a huge country and they need comfortable bikes to travel over thousands of kilometers. UM has attempted to contribute to the culture",
 "img":"https://i.ibb.co/qn2JrBW/bike-5.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p6",
 "name":"Ducati Panigale V2",
 "price":"496.00",
 "quantity":"20", 
@@ -54,7 +48,6 @@
 "img":"https://i.ibb.co/dPxj0gr/bike-6.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p7",
 "name":"LIFAN KPR Motorbike 165R Double",
 "price":"496.00",
 "quantity":"20", 
@@ -63,7 +56,6 @@
 "img":"https://i.ibb.co/Ycy6Dhp/bike-7.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p8",
 "name":"BMW F 900 R",
 "price":"321.00",
 "quantity":"9", 
@@ -72,16 +64,14 @@
 "img":"https://i.ibb.co/188dsgM/bike-8.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p9",
 "name":"Yamaha FZS Fi Rear Disc",
 "price":"396.00",
 "quantity":"5", 
 "supplierName":"Young Spirit Biker",
-"description":"The Yamaha FZ Series set a new benchmark for biking. The FZS-FI takes it to the next level. It brings the most advanced Yamaha Blue Core concept to offer bikers an unmatched experience of performance and efficiency.At its heart is the all new Yamaha Fuel Injection(FI) engine. It uses advanced sensors and actuators to calculate and deliver the optimum amount of fuel to the engine – enhancing both",
+"description":"The Yamaha FZ Series set a new benchmark for biking. The FZS-FI takes it to the next level. It brings the most advanced Yamaha Blue Core concept to offer bikers an unmatched experience of performance and efficiency.At its heart is the all new Yamaha Fuel Injection(FI) engine.",
 "img":"https://i.ibb.co/0Ky2qM4/bike-9.png"
 },
 {
-"_id":"626713f8dda4fdb3376743p10",
 "name":"Suzuki RM-Z 250",
 "price":"496.00",
 "quantity":"10", 

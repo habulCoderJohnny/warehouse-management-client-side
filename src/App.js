@@ -11,6 +11,7 @@ import Blog from './Pages/Blog/Blog';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import ManageInventory from './Pages/ManageInventory/ManageInventory.js';
+import MyItem from './Pages/MyItem/MyItem';
 import NotFound from './Pages/NotFound/NotFound';
 
 
@@ -23,9 +24,10 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/manageInventory' element={<ManageInventory/>}></Route>
-        <Route path='/bikes/:itemId' element={<DeliveryItem/>}></Route>
+        <Route path='/inventory/:itemId' element={<RequireAuth><DeliveryItem/></RequireAuth>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/AddItem' element={<AddItem/>}></Route>
+        <Route path='/myitem' element={<MyItem/>}></Route>
         <Route path='/signup' element={<Reg/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>

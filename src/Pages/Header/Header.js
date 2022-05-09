@@ -36,11 +36,11 @@ const Header = () => {
                     </Nav>
                     <Nav>
                             <Nav.Link as={Link} to="/blog">Blogs</Nav.Link>
-                            <Nav.Link as={Link} to="/manageInventory">Manage Inven..</Nav.Link>
+                            <Nav.Link as={Link} to="/manageInventory">Manage</Nav.Link>
                             {user && <>
-                            <Nav.Link as={Link} to="/add-service">Add Service</Nav.Link>
-                            <Nav.Link as={Link} to="/manage">add item</Nav.Link>
-                            <Nav.Link as={Link} to="/orders">my item</Nav.Link>
+                            <Nav.Link as={Link} to="/AddItem">add item</Nav.Link>
+                            <Nav.Link as={Link} to="/myitem">my  item</Nav.Link>
+                
                         </>}
                         {user ? <button className="btn btn-link text-danger d-inline text-decoration-none" onClick={handleSignout}> <FontAwesomeIcon icon={faSignOut}/> LOGOUT</button>
                             :
